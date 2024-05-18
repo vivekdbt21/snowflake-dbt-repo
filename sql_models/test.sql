@@ -1,0 +1,1 @@
+select * from E_COMM_DB.E_COMM_SCHEMA.CUSTOMER
