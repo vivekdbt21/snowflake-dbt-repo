@@ -1,0 +1,12 @@
+---
+sources:
+  - name: my_src
+    database: e_comm_db
+    schema: e_comm_schema
+    tables:
+      - name: raw_users
+      - name: raw_country
+models:
+  - name: src_users
+    config:
+      materialized: table
