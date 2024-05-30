@@ -6,6 +6,7 @@ sources:
     tables:
       - name: raw_users
       - name: raw_country
+      - name:  raw_sales
 models:
   - name: src_users
     config:

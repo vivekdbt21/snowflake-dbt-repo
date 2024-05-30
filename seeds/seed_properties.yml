@@ -1,0 +1,6 @@
+seeds:
+  - name: product_master
+    config:
+      full_refresh: true
+      column_types:
+        Product_ID: varchar(5)    #changing datatype from number to varchar
