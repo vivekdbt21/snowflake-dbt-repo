@@ -1,0 +1,1 @@
+select sal,{{convert_cent_to_dollar('sal')}} sal_in_dollars from {{ source('my_src', 'emp') }}
