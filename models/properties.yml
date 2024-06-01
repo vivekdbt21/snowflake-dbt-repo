@@ -7,6 +7,9 @@ sources:
       - name: raw_users
       - name: raw_country
       - name:  raw_sales
+      - name: a2_data
+      - name: emp
+      - name: dept
 models:
   - name: src_users
     config:
