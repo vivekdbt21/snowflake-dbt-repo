@@ -10,6 +10,8 @@ sources:
       - name: a2_data
       - name: emp
       - name: dept
+      - name: raw_product_ship
+      - name: sales 
 models:
   - name: src_users
     config:
