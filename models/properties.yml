@@ -12,6 +12,9 @@ sources:
       - name: dept
       - name: raw_product_ship
       - name: sales 
+      - name: order_payment
+
+
 models:
   - name: src_users
     config:
