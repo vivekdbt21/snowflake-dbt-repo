@@ -13,6 +13,7 @@ sources:
       - name: raw_product_ship
       - name: sales 
       - name: order_payment
+      - name: daily_sales 
 
 
 models:
