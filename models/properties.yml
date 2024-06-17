@@ -15,6 +15,7 @@ sources:
       - name: order_payment
       - name: daily_sales 
       - name: scd_example
+      - name: employee_details
 
 
 models:
