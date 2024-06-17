@@ -14,6 +14,7 @@ sources:
       - name: sales 
       - name: order_payment
       - name: daily_sales 
+      - name: scd_example
 
 
 models:
