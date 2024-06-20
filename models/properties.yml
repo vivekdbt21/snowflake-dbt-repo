@@ -20,6 +20,8 @@ sources:
       - name: emp_details_delete_insert
       - name: resort
       - name: PII_RAW
+      - name: marketing
+
 
 models:
   - name: src_users
@@ -30,3 +32,16 @@ models:
       - name: ID
         tests:
           - unique
+          - not_null
+      - name : gender
+        tests:
+          - accepted_values:
+              values: ['Male', 'Female']
+  - name: marketing_stg
+    columns:
+      - name: SALES
+        tests:
+          - my_test
+         
+        
+              
